@@ -1,0 +1,6 @@
+framework module Pods_ZPDSegmentSlider_Example {
+  umbrella header "Pods-ZPDSegmentSlider_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

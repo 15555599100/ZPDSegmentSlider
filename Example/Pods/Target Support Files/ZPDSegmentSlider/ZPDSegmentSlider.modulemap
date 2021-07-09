@@ -1,0 +1,6 @@
+framework module ZPDSegmentSlider {
+  umbrella header "ZPDSegmentSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

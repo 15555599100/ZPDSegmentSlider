@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZPDSegmentSlider (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZPDSegmentSlider (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZPDSegmentSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZPDSegmentSlider: de978c14ed3f5c52abb0bbe399eed009c62ac46f
+
+PODFILE CHECKSUM: 314ca531449b972e8ef586064f19c83c5072252c
+
+COCOAPODS: 1.10.1
