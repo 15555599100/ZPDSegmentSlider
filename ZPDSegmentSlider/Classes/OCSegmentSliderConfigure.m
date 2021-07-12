@@ -66,21 +66,18 @@
 }
 
 //最大的宽度   默认是屏幕的宽度
-//@property (nonatomic, assign) float maxWidth;
 - (void)setMaxWidth:(float)maxWidth {
     
     _maxWidth = maxWidth;
 }
 
 //第一个按钮到左边的距离
-//@property (nonatomic, assign) float padding;
 - (void)setPadding:(float)padding {
     
     _padding = padding;
 }
 
 //两个按钮间的距离
-//@property (nonatomic, assign) float spacing;
 - (void)setSpacing:(float)spacing {
     
     _spacing = spacing;

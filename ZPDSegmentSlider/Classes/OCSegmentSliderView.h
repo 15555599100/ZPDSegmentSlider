@@ -17,11 +17,12 @@
 @property (nonatomic, strong) UIButton     *currentBtn;
 @property (nonatomic, strong) UIScrollView *showScroll;
 @property (nonatomic, strong) UIScrollView *itemScroll;
+
 @property (nonatomic, strong) OCSegmentSliderConfigure *configure;
 
 @property (nonatomic, copy) void(^didSelectItemBlock)(NSInteger index);
 
-
 - (void)showSliderSwitchItemButton:(NSArray <NSString *> *)titleArray;
+
 
 @end
